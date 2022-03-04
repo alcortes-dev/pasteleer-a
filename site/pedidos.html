@@ -15,17 +15,43 @@
                 <ul>
                     <li><a href="./index.html">Inicio</a></li>
                     <li><a href="./pedidos.html">Pedidos</a></li>
-                    <li><a href="#">Inventario</a></li>
+                    <li><a href="./inventario.html">Inventario</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
         <h2>Realiza tu pedido</h2>
-        <fieldset>
-            <legend>Sabores</legend>
+        <form action="">
+            <fieldset>
+                <legend>Datos de contacto</legend>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono">
+                    <label for="correoElectronico">Correo Electrónico</label>
+                    <input type="email" id="correoElectronico" name="correoElectronico">
+            </fieldset>
+            <fieldset>
+                <legend>Elige los sabores</legend>
+                <label for="chocolate"><input type="checkbox" name="chocolate" id="chocolate"> Chocolate</label>
+                <label for="vainilla"><input type="checkbox" name="vainilla" id="vainilla"> Vainilla</label>
+                <label for="tresLeches"><input type="checkbox" name="tresLeches" id="tresLeches">Tres Leches</label>
 
-        </fieldset>
+            </fieldset>
+            <fieldset>
+                <legend>Elige los adornos</legend>
+                <label for="chantilly"><input type="checkbox" name="chantilly" id="chantilly"> Chantylly</label>
+                <label for="merengue"><input type="checkbox" name="merengue" id="merengue"> Merengue</label>
+            </fieldset>
+            <fieldset>
+                <legend>Descripción del pedido</legend>
+                <label for="descripcion">Descripción</label>
+                <textarea name="" id="" id="descripcion" name="descripcion" cols="50" rows="10"></textarea>
+            </fieldset>
+            <input type="submit" value="Enviar pedido"> 
+        </form>
+        
     </main>
     <footer>
         <div>
@@ -36,7 +62,7 @@
                 <p>Sábados y domingos de 11 a 16 horas</p>
             </div>
         </div>
-        
+       
     </footer>
 </body>
 </html>
