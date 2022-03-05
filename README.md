@@ -11,3 +11,17 @@ La paste-leería es un negocio enficado en clientes que gustan de la lectura, al
 La maquetación se puede revisar en:
 
 [Codigo](https://github.com/alcortes-dev/pasteleeria/tree/main/site)
+
+Las imagenes de muestra:
+
+### Home
+
+<img src="./resources/HomePasteleria.png" style="zoom:50%;" />
+
+### Formulario
+
+<img src="./resources/PedidosPasteleria.png" style="zoom:50%;" />
+
+### Pastelero
+
+<img src="./resources/PasteleroPasteleria.png" style="zoom:50%;" />
