@@ -10,6 +10,4 @@ La paste-leería es un negocio enficado en clientes que gustan de la lectura, al
 
 La maquetación se puede revisar en:
 
-[Vista HTML](./site/)
-
 [Codigo](https://github.com/alcortes-dev/pasteleeria/tree/main/site)
